@@ -3,12 +3,55 @@
 @tailwind utilities;
 
 
+@layer components{
+   .innerWidth{ 
+    @apply 2xl:max-w-[1280px] w-full
+  }
+  .heroHeading{ 
+    @apply font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white
+  }
+
+  .heroDText{
+    @apply md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]
+  }
+  .interWidth{
+    @apply lg:w-[80%] w-[100%]
+  }
+  .paddings{
+    @layer sm:p-16 xs:p-8 px-6 py-12
+  }
+  .yPaddings{
+    @layer sm:py-16 xs:py-8 py-12
+  }
+  .xPaddings{
+    @layer sm:px-16 px-6
+  }
+  .topPaddings{
+    @layer sm:pt-16 xs:pt-8 pt-12
+  }
+  .bottomPaddings{
+    @layer sm:pb-16 xs:pb-8 pb-12
+  }
+  .flexCenter{
+    @layer flex justify-center items-center
+  }
+  .flexStart{
+    @layer flex justify-start items-start
+  }
+  .flexEnd{
+    @layer flex justify-end
+  }
+  .navPadding{
+    @layer pt-[98px]
+  }
+}
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
+    rgb(216, 216, 216) 0%,
+    rgb(81, 81, 81) 26%,
+    rgb(58, 58, 58) 39%,
     hsl(202deg 92% 90%) 50%,
     hsl(215deg 77% 81%) 61%,
     hsl(221deg 73% 70%) 74%,

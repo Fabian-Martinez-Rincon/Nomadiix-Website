@@ -1,31 +1,29 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import styles from '../styles/styles'
+import Image from 'next/image'
 import { slideIn, staggerContainer, textVariant } from '../motion/motion'
 
 function subnavbar() {
   return (
-    <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
+    <section className="yPaddings sm:pl-16 pl-6">
     <motion.div
       variants={staggerContainer()}
       initial='hidden'
       whileInView='show'
       viewport={{ once: false, amount: 0.25}}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className="innerWidth mx-auto flex flex-col"
       >
       <div className='flex justify-center items-center flex-col relative z-10'>
-      <motion.h1
-        variants={textVariant(1.1)}   
-        className={styles.heroHeading} 
-      >
-        <h1 className=''>subnavbar</h1>
+      <motion.h1 variants={textVariant(1.1)}>
+        <h1 className='heroHeading'>NOMADIIX</h1>
       </motion.h1>
 
       <motion.div
-        variants={textVariant(1.2)}
-        className = 'flex flex-row justify-center items-center'
+        variants={slideIn('right', 'tween', 0.2, 1)}
+        className = ' relative w-full md:-mt-[10px] -mt-[12px]'
       >
-        <h1 className='style.heroHeading'>Nomadiix</h1>
+      <img src="/12.jpg" className=' w-full sm:h-[500px] h-[300px] object-cover z-10 '/>
+
       </motion.div>
     </div>
     </motion.div>
