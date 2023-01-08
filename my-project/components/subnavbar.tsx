@@ -1,6 +1,4 @@
-import React from 'react'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import { slideIn, staggerContainer, textVariant } from '../motion/motion'
 
 function subnavbar() {
@@ -22,7 +20,9 @@ function subnavbar() {
         variants={slideIn('right', 'tween', 0.2, 1)}
         className = ' relative w-full md:-mt-[10px] -mt-[12px]'
       >
-      <img src="/12.jpg" className=' w-full sm:h-[500px] h-[300px] object-cover z-10 '/>
+        <img src="/12.jpg" className=' rounded-full w-full sm:h-[500px] h-[300px] object-cover z-10 inset-1  '/>
+      
+      
 
       </motion.div>
     </div>
