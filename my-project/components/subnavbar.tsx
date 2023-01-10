@@ -13,7 +13,7 @@ function subnavbar() {
       >
       <div className='flex justify-center items-center flex-col relative z-10'>
       <motion.h1 variants={textVariant(1.1)}>
-        <h1 className='heroHeading'>NOMADIIX</h1>
+        <h1 className=' heroHeading'>NOMADIIX</h1>
       </motion.h1>
 
       <motion.div
