@@ -12,13 +12,13 @@ function aboutme() {
         initial="hidden"
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className='mt-[8px] innerWidth mx-auto flexCenter flex-col'
+        className='mt-[200px] innerWidth mx-auto flexCenter flex-col'
         >
-        <Text title='Sobre nosotros' textStyles='text-center'/>
+        <Text title='{Sobre nosotros}' textStyles='text-center'/>
         
         <motion.p 
             variants={fadeIn('up', 'tween', 0.2 , 1)}
-            className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
+            className='mt-[12px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
         >
             Buenas, me llamo Nomadiix, soy un desarrollador 
             indi y me gusta a compartir el proceso de mi trabajo en mi <a href='https://www.youtube.com/@NomaDiix/featured' className=' font-extrabold text-white' target={'_black'}> canal de youtube</a>. Tambien pueden contactarme 
