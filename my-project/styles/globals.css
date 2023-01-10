@@ -33,13 +33,13 @@
     @layer sm:pb-16 xs:pb-8 pb-12
   }
   .flexCenter{
-    @layer flex justify-center items-center
+    @apply flex justify-center items-center
   }
   .flexStart{
-    @layer flex justify-start items-start
+    @apply flex justify-start items-start
   }
   .flexEnd{
-    @layer flex justify-end
+    @apply flex justify-end
   }
   .navPadding{
     @layer pt-[98px]
