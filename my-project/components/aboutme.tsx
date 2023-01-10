@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, textVariant } from '../motion/motion'
+import Text from './Text'
 
 
 function aboutme() {
@@ -13,7 +14,8 @@ function aboutme() {
         viewport={{ once: false, amount: 0.25 }}
         className='innerWidth mx-auto flexCenter flex-col'
         >
-        <h2> about </h2>
+        <Text title='Sobre nosotros' textStyles='text-center'/>
+        
         </motion.div>
         
     </section>
