@@ -6,7 +6,7 @@ function Text({title, textStyles }:any) {
     return (
         <motion.p
             variants={textContainer}
-            className={`font-bold text-[14px] text-secondary-white ${textStyles}`}
+            className={`font-bold text-[16px] text-secondary-white ${textStyles}`}
             >
             
             {Array.from(title).map((letter:any, index:any) => (
