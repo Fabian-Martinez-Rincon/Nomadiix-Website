@@ -15,6 +15,10 @@ function subnavbar() {
       <motion.h1 variants={textVariant(1.1)}>
         <h1 className=' heroHeading'>NOMADIIX</h1>
       </motion.h1>
+      
+      <motion.h1 variants={textVariant(1.2)}>
+        <h1 className=' heroHeading'>DEVELOPER</h1>
+      </motion.h1>
 
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}

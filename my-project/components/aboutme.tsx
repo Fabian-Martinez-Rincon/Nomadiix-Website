@@ -18,7 +18,7 @@ function aboutme() {
         
         <motion.p 
             variants={fadeIn('up', 'tween', 0.2 , 1)}
-            className='mt-[8px] font-normal sm:text-[18px] text-[20px] text-center text-secondary-white'
+            className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
         >
             Buenas, me llamo Nomadiix, soy un desarrollador 
             indi y me gusta a compartir el proceso de mi trabajo en mi <a href='https://www.youtube.com/@NomaDiix/featured' className=' font-extrabold text-white' target={'_black'}> canal de youtube</a>. Tambien pueden contactarme 
