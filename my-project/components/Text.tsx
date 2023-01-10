@@ -6,10 +6,10 @@ function Text({title, textStyles }:any) {
     return (
         <motion.p
             variants={textContainer}
-            className={`font-bold text-[14px] text-secondary-white{textStyles}`}
+            className={`font-bold text-[14px] text-secondary-white ${textStyles}`}
             >
             
-            {Array.from(title).map((letter, index) => (
+            {Array.from(title).map((letter:any, index:any) => (
             <motion.span variants={textVariant2} key={index}>
                 {letter === ' ' ? '\u00A0' : letter}
             </motion.span>
