@@ -24,8 +24,8 @@ function aboutme() {
              soy un desarrollador <br/>
             indi y me gusta a compartir el proceso de <br/> 
             mi trabajo en mi <a href='https://www.youtube.com/@NomaDiix/featured' className=' font-extrabold text-white' target={'_black'}> canal de youtube</a>. <br/>
-            Tambien pueden contactarme por <a href='https://www.linkedin.com/in/fabian-martinez-rincon/' className=' font-extrabold text-white' target={'_black'}>linkedin</a> .<br/>
-            Podes contratarme para hacer un diseño<br/> de una web, desarrollarla o mantenerla esto <br/>
+            Tambien pueden contactarme por <a href='https://www.linkedin.com/in/fabian-martinez-rincon/' className=' font-extrabold text-white' target={'_black'}>linkedin</a><br/>
+            para hacer un diseño de una web ,<br/> desarrollarla o mantenerla, esto <br/>
             va en función de tus necesidades.
         </motion.p>
 
