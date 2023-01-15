@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, textVariant } from '../motion/motion'
-
+import Image from 'next/image'
 function subnavbar() {
   return (
     <section className="yPaddings sm:pl-16 pl-6">
@@ -24,9 +24,15 @@ function subnavbar() {
         variants={slideIn('right', 'tween', 0.2, 1)}
         className = ' relative w-full md:-mt-[10px] -mt-[12px]'
       >
-        <img src="/12.jpg" className=' rounded-full w-full sm:h-[500px] h-[300px] object-cover z-10 inset-1  '/>
-      
-      
+        <Image
+                className='rounded-full w-full sm:h-[500px] h-[300px] object-cover z-10 inset-1'
+                src="/12.jpg"
+                alt="Next.js Logo"
+                width={1000}
+                height={1000}
+                objectFit='contain'
+                priority
+            />
 
       </motion.div>
     </div>
