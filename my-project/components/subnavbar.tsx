@@ -30,7 +30,6 @@ function subnavbar() {
                 alt="Next.js Logo"
                 width={1000}
                 height={1000}
-                objectFit='contain'
                 priority
             />
 

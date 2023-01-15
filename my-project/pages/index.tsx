@@ -14,13 +14,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/nomadiix.ico" />
       </Head>
-      <main>
-        <div>
-        <Navbar/>
-        <Subnavbar/>
+
+    
+      <Navbar/>
+      <Subnavbar/>
+      <div className='relative'>
+      <div className=' gradient-03 z-0 '/>
         <Aboutme/>
       </div>
-      </main>
     </>
   )
 }
