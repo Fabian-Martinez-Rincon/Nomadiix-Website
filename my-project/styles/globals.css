@@ -165,7 +165,8 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
-
+  --black: rgb(0, 0, 0);
+  --white: #fff;
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
@@ -252,3 +253,22 @@ a {
 }
 
 
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff80;
+    border-radius: 0.8rem;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

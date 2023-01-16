@@ -1,4 +1,4 @@
-export const proyects = [
+export const projects = [
     {
         id: 'linktree',
         imgUrl: '/public/Proyects/Linktree.png',

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, textVariant } from '../motion/motion'
-import { proyects } from './const'
+import { projects } from './const'
 
 function proyects() {
   return (
