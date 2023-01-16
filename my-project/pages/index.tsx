@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Subnavbar from '../components/subnavbar'
 import Aboutme from '../components/aboutme'
+import Proyects from '../components/proyects'
 
 
 
@@ -15,13 +16,20 @@ export default function Home() {
         <link rel="icon" href="/nomadiix.ico" />
       </Head>
 
-    
+      <div className='gradient-03 z-0'/>
       <Navbar/>
       <Subnavbar/>
       <div className='relative'>
       <div className=' gradient-03 z-0 '/>
         <Aboutme/>
       </div>
+
+      <div className='relative'>
+        <div className='gradient-04 z-0'/>
+        <Proyects/>
+      </div>
+
+      
     </>
   )
 }
